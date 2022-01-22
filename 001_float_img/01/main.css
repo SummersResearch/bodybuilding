@@ -1,0 +1,12 @@
+div, img {
+    border: 5px solid red;
+    margin: 100px;
+}
+
+#right {
+    float: right;
+}
+
+#left {
+    float: left;
+}
