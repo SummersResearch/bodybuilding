@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<h2>Here is some more JavaScript coding exercises...</h2>
+
+</body>
+<script>
+    // Math.floor(8.7);
+    // let calc = Math.floor((Math.random() * 10) + 1);
+    let getRandomNumber = function (start, range) {
+        let getRandom = Math.floor((Math.random() * range) + start);
+        while (getRandom > range) {
+            getRandom = Math.floor( (Math.random() * range) + start)
+        }
+        return getRandom;
+
+    }
+    console.log(getRandomNumber(500, 1000));
+</script>
+</html>
