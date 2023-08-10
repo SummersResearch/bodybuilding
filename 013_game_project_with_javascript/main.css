@@ -1,0 +1,37 @@
+img {
+    width: 150px;
+    height: 150px;
+
+}
+
+**  {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body    {
+    background-color: #1b1b1b;
+}
+
+.header {
+    background-color: beige;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.header p {
+    font-family: Arial;
+    font-size: 17px;
+    color: red;
+    padding-bottom: 7px;
+}
+
+.header h2 {
+    font-family: sans-serif;
+    color: aqua;
+}
